@@ -1,0 +1,134 @@
+*{ 
+padding: 0; 
+margin: 0; 
+font-family: serif; 
+font-variant: small-caps; 
+} 
+
+nav{ 
+position: fixed; 
+top: 0; 
+left: 0; 
+width: 100%; 
+background: #ff6600; 
+} 
+
+img{ 
+display: block; 
+float: left; 
+} 
+
+body > img{ 
+height: 100px; 
+display: block; 
+float: left; 
+margin-top: -70px; 
+margin-left: 100px; 
+position: fixed; 
+z-index: 999; 
+} 
+
+
+nav ul{ 
+list-style: none; 
+position: relative; 
+float: right; 
+margin-right: 100px; 
+display: inline-table; 
+} 
+
+
+nav ul li{ 
+float: left; 
+-webkit-transition: all .2s ease-in-out; 
+-moz-transition: all .2s ease-in-out; 
+transition: all .2s ease-in-out; 
+} 
+
+nav ul li a{ 
+display: block; 
+padding: 40px; 
+color: #fff; 
+font-size: 1.8em; 
+text-decoration: none; 
+} 
+
+
+.photos div{ 
+padding: 30px 0; 
+
+} 
+
+.back{ 
+margin-top: 75px; 
+height:1080px; 
+background: url('http://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/0kjHIH6/cartoon-solar-system-by-order_4yfe6utje__F0000.png') no-repeat 50% 50%; 
+} 
+
+.photos{ 
+background: #000066; 
+} 
+
+.photos .flex-container { 
+margin: 0 100px; 
+display: flex; 
+} 
+
+.photos .flex-item { 
+flex: 1 auto; 
+} 
+.photos .flex-item img{ 
+height: 300px; 
+padding: 0; 
+margin: 0 auto; 
+float: none; 
+} 
+
+.texts { 
+background: #0000cc; 
+} 
+
+.texts .flex-container { 
+display: -webkit-flex; 
+display: flex; 
+-webkit-flex-flow: column wrap; 
+flex-flow: column wrap; 
+-webkit-justify-content: center; 
+justify-content:center; 
+padding:10px 100px; 
+
+} 
+
+.texts .flex-item { 
+-webkit-flex: 1 auto; 
+flex: 1 auto; 
+margin:30px 0; 
+border: 10px solid white; 
+} 
+
+.comments { 
+background: #24b2ca; 
+} 
+
+.comments .flex-container { 
+display: flex; 
+flex-flow: column wrap; 
+justify-content:center; 
+padding:20px 100px; 
+} 
+
+
+.comments img { 
+margin : 0; 
+height:150px; 
+width: 150px; 
+padding:0; 
+border-radius: 150px; 
+border: 10px solid white; 
+} 
+
+.comment{ 
+margin: 20px 20px 20px 20px; 
+font-size: 1.3em; 
+color: white; 
+}
